@@ -6,8 +6,9 @@ function Navbar() {
     <div className='navbar'>
             <h1 className='brand'>imageGallery</h1>
             <Link to='/' className='link'>Home</Link>
+            <Link to='/gallery' className='link'>Gallery</Link>
             <Link to='/contributors' className='link'>Contributors</Link>
-            <Link to='/contactus' className='link'>ContactUs</Link>
+            
            
     </div>
   )

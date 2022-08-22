@@ -1,0 +1,33 @@
+.contriflex
+{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 40rem;
+    width: 40rem;
+    color: white;
+    background-color: rgba(14, 20, 74, 0.288);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+   
+}
+.contri
+{
+    background-image: url('../Images/NightBackground.jpg');
+    width: 100vw;
+    height: 100vh;
+}
+
+.contriContent
+{
+    width: 20rem;
+}
+
+.contriImage
+{
+    width: 10rem;
+    height: 20rem;
+}

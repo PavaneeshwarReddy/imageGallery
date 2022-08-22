@@ -6,12 +6,19 @@
     justify-content: space-around;
    align-items: center;
    color: white;
-   background-color: transparent;
+   background-color: white;
+   backdrop-filter: blur(100px);
+   height: 50px;
 }
 .link
 {
     text-decoration: none;
     color: rgb(68, 68, 68);
+}
+
+.brand
+{
+    color: wheat;
 }
 
 
