@@ -2,4 +2,32 @@
 {
  padding-left:10vw ;
  padding-top: 10vh;
+ padding-right:10vw;
+ column-count: 3;
+
+}   
+
+.galleryImages
+{
+    
+    width:100%;
+    filter: grayscale(1);
+    transition: 0.4s ease-in;
+    border-radius: 2px;
 }
+
+.galleryImages:hover 
+{
+    transition: 0.4s ease-out;
+    filter: grayscale(0);
+}
+
+.nothing
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:60vw;
+}
+
